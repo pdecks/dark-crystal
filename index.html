@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Data Modeling: The Dark Crystal</title>
+<link rel="stylesheet" href="http://fellowship.hackbrightacademy.com/tools/homework.css" type="text/css" />
+</head>
+<body>
+<div class="document" id="data-modeling-the-dark-crystal">
+<h1 class="title">Data Modeling: The Dark Crystal</h1>
+
+<div class="section" id="important">
+<h1>Important!</h1>
+<p>Make sure to do this homework, as it will be the focus of the morning lecture
+tomorrow. Draw your data models -- this is super super useful scaffolding for
+your project.</p>
+</div>
+<div class="section" id="introduction">
+<h1>Introduction</h1>
+<p>In the Movie, <a class="reference external" href="http://en.wikipedia.org/wiki/The_Dark_Crystal">&quot;The Dark
+Crystal&quot;</a>, the evil
+Skeksis are able to restore their youth by draining and consuming the
+essense from other beings. They've driven the Gelfling race to the brink
+of extinction (only two remain), however there are still plenty of
+Podlings that can be rounded up.</p>
+<p>The Skeksis consume the essence of a lot of Podlings. They're also a
+greedy race, so there are constant fights over who has consumed the most
+essence. The chief prison warden of the Skeksis has requested you build
+him a database to help her keep track of everything.</p>
+</div>
+<div class="section" id="requirements">
+<h1>Requirements</h1>
+<p>Here's what you know:</p>
+<ul class="simple">
+<li>The prison currently has 20 cages to hold their captives, though they
+may want to add more if they get a large haul.</li>
+<li>Each cage can hold up to 5 prisoners of either type (Podling
+or Gelfling). It's fine to mix prisoner types in a cage.</li>
+<li>Each Podling has a certain amount of essence stored within them. When
+processed and entered into the system, the Skeksis will measure the
+essence and record it as an integer between 0-500.</li>
+<li>Gelflings hold a large amount of essence (between 0-10000 units).</li>
+</ul>
+<p>For each prisoner, we need to keep track of:</p>
+<ul class="simple">
+<li>Race</li>
+<li>Arrival Date</li>
+<li>Amount of Essence Remaining</li>
+<li>Location (which cage are they in)</li>
+</ul>
+<p>Skeksis regularly visit the processing facility to consume essence.</p>
+<p>We need to keep track of:</p>
+<ul class="simple">
+<li>Which Skeksis consumed essence</li>
+<li>When the essence was consumed</li>
+<li>From which prisoner the essence was consumed</li>
+<li>How much essence was consumed</li>
+</ul>
+</div>
+<div class="section" id="directions">
+<h1>Directions</h1>
+<p>Design a database system to store data meeting the above requirements.
+Draw a <strong>diagram</strong> that shows the following:</p>
+<p>(Note: Do NOT write SQL. Do NOT write python. Boxes and lines are a
+perfectly fine way to go.)</p>
+<ul class="simple">
+<li>What tables you need and what data needs to be stored in
+each table (a.k.a. column names for each table).</li>
+<li>The data type of each column.</li>
+<li>Any relationships you would build in between the tables.</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
